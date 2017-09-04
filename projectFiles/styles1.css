@@ -1,0 +1,12 @@
+/*desktop*/
+
+@media only screen and ( min-width: 1001px) {
+nav{flex-wrap: nowrap;
+flex-direction: row;}
+body { background-color: red;
+nav a {flex-basis: 20%}
+}
+#main_content, #sidebar_content {
+  display: flex;
+  flex-direction: row;
+}
